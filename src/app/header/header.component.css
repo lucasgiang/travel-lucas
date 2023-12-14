@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.top-bar {
+    padding: 2rem 0;
+}
+.top-bar__social-list {
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+} 
+.top-bar__title {
+    align-items: center;
+    margin-right: 15rem;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.btn-booking {
+    display: inline-flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 12px;
+    background: #4D46FA;
+
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.top-bar__social-list > li {
+    margin-right: 10px;
+}

@@ -1,0 +1,86 @@
+<app-header></app-header>
+<section class="flight">
+    <div class="slide">
+        <div class="container">
+            <div class="grid grid-cols-2 w-screen">
+                <div class="flex justify-center items-center">
+                    <div class="flex flex-col">
+                        <div class="item">Hello!</div>
+                        <div class="item">Where are</div>
+                        <div class="item">you <span class="highlight"> flying </span> to ...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-search ml-28 mt-32">
+            <div class="row">
+                <div class="flex flex-row pt-8">
+                    <div class="col-sort ml-8">
+                        <input type="radio" id="oneway" name="oneway" class="w-6 h-6" />
+                        <label for="oneway" class="ml-2">One way / Round-trip</label>
+                    </div>
+                    <div class="col-sort ml-4">
+                        <input type="radio" id="multi-city" name="oneway" class="w-6 h-6" />
+                        <label for="multi-city" class="ml-2">Multi-city</label>
+                    </div>
+                    <div class="col-sort ml-14">
+                        <select class="">
+                            <option value="">02 Adult, 01 children</option>
+                        </select>
+                    </div>
+                    <div class="col-sort ml-14">
+                        <select>
+                            <option value="">Business Class</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 mt-5">
+                    <div class="grid grid-cols-2 ml-8 relative">
+                        <div class="from rounded-lg border h-24 w-64 px-5">
+                            <div class="mt-3">
+                                <p class="top">FROM</p>
+                                <p class="center">Da Nang</p>
+                                <p class="low">Quang Nam, Viet Nam</p>
+                            </div>
+                        </div>
+                        <div class="absolute top-[20px] left-[246px]">
+                            <div class="border rounded-full w-14 h-14 flex items-center justify-center bg-white">
+                                <img src="/assets/imgs/Frame 2.svg" alt="No svg">
+                            </div>
+                        </div>
+                        <div class="to rounded-lg border h-24 w-64 px-6">
+                            <div class="mt-3">
+                                <p class="top">TO</p>
+                                <p class="center">Ho Chi Minh</p>
+                                <p class="low">Viet Nam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 rounded-lg border h-24 mr-8">
+                        <div class="departure flex flex-col px-5 mt-3">
+                            <span class="top">DEPARTURE</span>
+                            <span class="center flex">Fri, 22 Mar, 2022 <img src="/assets/imgs/calendar-3 1.svg"
+                                    class="ml-2" alt="No svg"></span>
+                            <span class="font-bold text-base"><u class="">Prev</u>
+                                <span class="ml-2 text-sm text-[#9c9c9c]">Next</span>
+                            </span>
+                        </div>
+                        <div class="return flex flex-col px-6 mt-3">
+                            <p class="top">RETURN</p>
+                            <p class="center flex">Fri, 22 Mar, 2022<img src="/assets/imgs/calendar-3 1.svg"
+                                    class="ml-2" alt="No svg" />
+                            </p>
+                            <p class="text-sm font-bold text-[#9c9c9c]">Prev
+                                <span class="ml-2 text-sm font-bold text-[#9c9c9c]">Next</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-search__btn flex justify-end pt-5 mr-8">
+                <button class="btn-search">Search Flights</button>
+            </div>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>

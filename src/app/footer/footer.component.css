@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.footer {
+    padding: 0 1rem;
+}
+.footer__social-list {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+.footer__title {
+    align-items: center;
+    margin-right: 10rem;
+    display: inline-flex;
+    gap: 30px;
+    justify-content: end;
+}
+.footer__social-list > li {
+    margin-right: 10px;
+}
+.footer__social-list > p {
+    margin-right: 35px;
+}
+.footer__title > li {
+    margin-right: 1px;
+}
+.hr {
+    display: flex;
+    align-items: center;
+}
